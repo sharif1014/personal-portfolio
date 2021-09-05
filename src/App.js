@@ -6,8 +6,6 @@ function App() {
   return (
     <div className="App">
       <Topbar/>
-      <br/>
-      <br/>
       <Header/>
     </div>
   );

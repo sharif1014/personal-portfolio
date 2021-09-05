@@ -1,8 +1,10 @@
+
 .navbar{
     width: 100%;
-    background-image: linear-gradient(rgba(19, 15, 64,1.0),rgba(19, 15, 64,0.8)); 
-    position: fixed;
-    top: 0;
+    background-image: linear-gradient(rgba(19, 15, 64,1.0),rgba(19, 15, 64,0.8));
+    position: sticky;
+    top: 0; 
+    z-index:999;
 }
 .navbar-brand{
     width: 40%;
