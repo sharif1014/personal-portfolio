@@ -6,6 +6,9 @@
     position: relative;
 }
 
+
+/* ABOUT HEADER SECTION CSS*/
+
 .aboutHeader {
     text-align: center;
     padding-top: 30px;
@@ -20,6 +23,12 @@
 .aboutHeader span {
     border-bottom: 3px solid fuchsia;
 }
+
+
+/* ABOUT HEADER SECTION CSS END*/
+
+
+/* ABOUT CONTENT SECTION CSS*/
 
 .aboutContent {
     margin-top: 20px;
@@ -68,3 +77,6 @@ img {
     padding: 10px 20px;
     text-align: justify;
 }
+
+
+/* ABOUT CONTENT SECTION CSS END*/
