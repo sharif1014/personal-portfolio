@@ -1,12 +1,14 @@
 import Topbar from "./components/Topbar"
 import './App.css';
-import Header from "./components/Header";
+import About from "./pages/About";
+// import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
       <Topbar/>
-      <Header/>
+      {/* <Header/> */}
+      <About/>
     </div>
   );
 }
