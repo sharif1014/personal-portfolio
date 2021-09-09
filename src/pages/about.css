@@ -1,64 +1,37 @@
 .about {
     margin-top: 20px;
     width: 100%;
-    height: calculate(100vh-50px);
-    background: lightblue;
-    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(to right, #101110, #0e100d, #0c0f0a, #0a0e05, #090d01);
+    
 }
-
-
-/* ABOUT HEADER SECTION CSS*/
-
-.aboutHeader {
-    text-align: center;
-    padding-top: 30px;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-}
-
-.aboutHeader {
-    padding: 20px;
-}
-
-.aboutHeader span {
-    border-bottom: 3px solid fuchsia;
-}
-
-
-/* ABOUT HEADER SECTION CSS END*/
-
 
 /* ABOUT CONTENT SECTION CSS*/
 
 .aboutContent {
     margin-top: 20px;
-    padding: 10px 0;
+    padding: 30px 0;
     display: flex;
     justify-content: space-between;
-    background: antiquewhite;
-    box-shadow: 3px 2px 5px 1px #070707;
 }
 
 .aboutimg {
-    flex: 30%;
+    flex: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-right: 10px;
-    border-right: 2px solid fuchsia;
 }
 
 img {
-    width: 250px;
-    height: 250px;
     border-radius: 50%;
     border: 2px solid firebrick;
     text-align: center;
 }
 
 .aboutdesc {
-    flex: 65%;
+    flex: 70%;
     text-align: center;
 }
 
@@ -66,17 +39,25 @@ img {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2rem;
     font-weight: 700;
+    color: rgb(255, 92, 92);
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    border-bottom: 3px solid fuchsia;
     padding: 5px;
+    text-shadow: #474747 3px 5px 2px;
 }
 
 .aboutdesc p {
     margin-top: 10px;
-    padding: 10px 20px;
+    font-size: 20px;
+    padding: 20px 20px;
     text-align: justify;
+    color: rgb(192, 191, 189);
 }
 
-
+.aboutdesc p span{
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: mediumspringgreen;
+}
 /* ABOUT CONTENT SECTION CSS END*/

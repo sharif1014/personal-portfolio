@@ -1,6 +1,7 @@
 import React from "react";
 import "./topbar.css";
 const Topbar = () => {
+
   return (
     <>
      
@@ -40,7 +41,7 @@ const Topbar = () => {
               <a className="nav-link" href="#services">
                 Services
               </a>
-              <a className="nav-link" href="#blog">
+              <a className="nav-link" href="#blog" id="blog">
                 Blog
               </a>
             </ul>

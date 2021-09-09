@@ -1,6 +1,6 @@
 .navbar {
     width: 100%;
-    background-image: linear-gradient(rgba(19, 15, 64, 1.0), rgba(19, 15, 64, 0.8));
+    background-image: linear-gradient(rgba(19, 15, 64, 1.0), rgba(76, 75, 94, 0.8));
     position: sticky;
     top: 0;
     z-index: 999;
@@ -82,4 +82,4 @@
 
 #myNavbar ul a:hover:before {
     width: 100%;
-}
+} 
