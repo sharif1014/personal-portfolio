@@ -1,7 +1,68 @@
 {
-    "files.autoSave": "onWindowChange",
-    "editor.wordWrap": "on",
-    "debug.javascript.resourceRequestOptions": {
-    
-    }
+  // editor
+  "editor.fontSize": 20,
+  "editor.fontFamily": "Montserrat-Regular, sans serif",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.lineHeight": 25,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": " bold"
+        }
+      }
+    ]
+  },
+  // cursor
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": null
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+  //terminal
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontFamily": "monospace",
+  "workbench.colorTheme": "Atom Black",
+  "workbench.iconTheme": "vscode-icons",
+  // terminal customization
+  "workbench.colorCustomizations": {
+    "terminal.background": "#01061f",
+    "terminal.foreground": "#13f544",
+    "terminalCursor.background": "#58cc3b",
+    "terminalCursor.foreground": "#2489b1",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBlue": "#0D6678",
+    "terminal.ansiBrightBlack": "#fc7b12",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8cff21f3",
+    "terminal.ansiBrightGreen": "#257707",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#df1cb5",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#84e406",
+    "terminal.ansiMagenta": "#06c274",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#a689f7",
+    "terminal.ansiYellow": "#ebaa13"
+  }
 }

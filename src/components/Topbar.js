@@ -1,5 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./topbar.css";
+
+
 const Topbar = () => {
 
   return (
@@ -26,24 +29,22 @@ const Topbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="myNavbar">
             <ul className="navbar-nav ml-auto">
-              <a className="nav-link" href="#home">
+              <Link className="nav-link" to="/">
                 Home
-              </a>
-              <a className="nav-link" href="#about">
+              </Link>
+              <Link className="nav-link" to="/about">
                 About
-              </a>
-              <a className="nav-link" href="#contact">
-                Contact
-              </a>
-              <a className="nav-link" href="#skills">
-                Skills
-              </a>
-              <a className="nav-link" href="#services">
+              </Link>
+              
+              <Link className="nav-link" to="/services">
                 Services
-              </a>
-              <a className="nav-link" href="#blog" id="blog">
-                Blog
-              </a>
+              </Link>
+              <Link className="nav-link" to="/skills">
+                Skills
+              </Link>
+              <Link className="nav-link" to="/contact">
+                Contact
+              </Link>
             </ul>
           </div>
         </div>

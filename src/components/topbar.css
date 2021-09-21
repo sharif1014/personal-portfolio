@@ -1,85 +1,92 @@
 .navbar {
-    width: 100%;
-    background-image: linear-gradient(rgba(19, 15, 64, 1.0), rgba(76, 75, 94, 0.8));
-    position: sticky;
-    top: 0;
-    z-index: 999;
+  width: 100%;
+  background-image: radial-gradient(
+    circle,
+    #051937,
+    #021229,
+    #041837,
+    #031227,
+    #012255
+  );
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 .navbar-brand {
-    width: 40%;
-    padding-left: 60px;
-    box-sizing: border-box;
+  width: 40%;
+  padding-left: 60px;
+  box-sizing: border-box;
 }
 
 .navbar-brand a h2 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-    animation: animat 3s linear infinite;
-    animation-direction: alternate;
-    text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  animation: animat 3s linear infinite;
+  animation-direction: alternate;
+  text-transform: uppercase;
 }
 
 @keyframes animat {
-    from {
-        padding-left: 60px;
-    }
-    to {
-        padding-right: 60px;
-    }
+  from {
+    padding-left: 60px;
+  }
+  to {
+    padding-right: 60px;
+  }
 }
 
 .navbar-brand a {
-    color: hotpink;
-    text-decoration: none;
+  color: hotpink;
+  text-decoration: none;
 }
 
 .navbar-brand a span {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-    color: chocolate;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  color: chocolate;
 }
 
 .navbar-brand a:hover {
-    color: goldenrod;
+  color: goldenrod;
 }
 
 .navbar-brand a span:hover {
-    color: hotpink;
+  color: hotpink;
 }
 
-#myNavbar ul a {
-    text-transform: uppercase;
-    color: white;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    letter-spacing: 1.5px;
-    margin: 0px 10px;
-    padding: 5px 5px;
-    position: relative;
+#myNavbar > ul > .nav-link {
+  text-transform: uppercase;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  margin: 0px 0.2rem;
+  padding: 5px 3px;
+  position: relative;
 }
 
-#myNavbar ul a:first-child {
-    color: hotpink;
+#myNavbar ul .nav-link:first-child {
+  color: hotpink;
 }
 
-#myNavbar ul a:hover {
-    color: chocolate;
-    transition: 0.4s ease-in;
+#myNavbar ul Link:hover {
+  color: chocolate;
+  transition: 0.4s ease-in;
 }
 
 #myNavbar ul a:before {
-    content: " ";
-    position: absolute;
-    top: 105%;
-    left: 0%;
-    width: 0%;
-    height: 2px;
-    border-bottom: 2px solid hotpink;
-    transition: all 0.4s ease-in;
+  content: " ";
+  position: absolute;
+  top: 105%;
+  left: 0%;
+  width: 0%;
+  height: 2px;
+  border-bottom: 2px solid hotpink;
+  transition: all 0.4s ease-in;
 }
 
 #myNavbar ul a:hover:before {
-    width: 100%;
-} 
+  width: 100%;
+}

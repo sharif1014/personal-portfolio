@@ -1,0 +1,219 @@
+.footer {
+  width: 100%;
+  margin: 1.2rem auto;
+  padding: 1.5rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(105, 189, 189);
+}
+
+.footer-left {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-left: 0px;
+}
+.footer-left ul {
+  list-style: none;
+}
+.footer-left h5 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(36, 41, 41);
+  margin-top: 0.3rem;
+  padding-top: 0.3rem;
+}
+.footer-left .icon {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(19, 31, 31);
+  margin: 0.3rem 0.5rem;
+}
+.footer-left span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(28, 37, 37);
+}
+.footer-left h3 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(25, 11, 31);
+  padding: 0.1rem 1rem;
+}
+.footer-center {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-center ul {
+  list-style: none;
+}
+.footer-center h5 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(36, 41, 41);
+  margin-top: 0.3rem;
+  padding-top: 0.3rem;
+}
+.footer-center .icon {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(19, 31, 31);
+  margin: 0.3rem 0.5rem;
+}
+.footer-center span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(28, 37, 37);
+}
+.footer-center h3 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(25, 11, 31);
+  padding: 0.1rem 1rem;
+}
+.footer-right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-right ul {
+  list-style: none;
+}
+.footer-right h5 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(36, 41, 41);
+  margin-top: 0.3rem;
+  padding-top: 0.3rem;
+}
+.footer-right .icon {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(19, 31, 31);
+  margin: 0.3rem 0.5rem;
+}
+.footer-right span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(28, 37, 37);
+}
+.footer-right h3 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(25, 11, 31);
+  padding: 0.1rem 1rem;
+}
+@media only screen and (max-width: 768px) {
+  .footer {
+    margin-top: 1.2rem;
+    padding-top: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .footer-left {
+    flex: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid rgb(153, 4, 133);
+  }
+  .footer-left ul {
+    list-style: none;
+  }
+  .footer-left h5 {
+    font-family: "Varela Round", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(104, 45, 4);
+  }
+  .footer-left .icon {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(148, 7, 35);
+  }
+  .footer-left span {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(48, 3, 12);
+  }
+  .footer-left h3 {
+    font-family: "Varela Round", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .footer-center {
+    flex: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid rgb(153, 4, 133);
+  }
+  .footer-center ul {
+    list-style: none;
+  }
+  .footer-center h5 {
+    font-family: "Varela Round", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(104, 45, 4);
+  }
+  .footer-center .icon {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(148, 7, 35);
+  }
+  .footer-center span {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(48, 3, 12);
+  }
+  .footer-center h3 {
+    font-family: "Varela Round", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .footer-right {
+    flex: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .footer-right ul {
+    list-style: none;
+  }
+  .footer-right h5 {
+    font-family: "Varela Round", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(104, 45, 4);
+  }
+  .footer-right .icon {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .footer-right span {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(48, 3, 12);
+  }
+  .footer-right h3 {
+    font-family: "Varela Round", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}

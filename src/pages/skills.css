@@ -1,0 +1,115 @@
+.skill-container {
+  width: 100%;
+  padding: 1.5rem 1rem;
+  margin: 2rem auto;
+  background: rgb(171, 206, 206);
+  box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.72);
+}
+.skill-container > h2 {
+  text-align: center;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: rgb(117, 194, 17);
+  text-shadow: #2b2525 3px 5px 2px;
+  padding: 1rem 0;
+}
+.skill-container > ul > li {
+  list-style: none;
+}
+.skill-container > ul > li > .progress {
+  margin: 0;
+  padding: 0;
+}
+.skill-container > ul > li > h4 {
+  text-transform: uppercase;
+  font-family: Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: 1.2rem;
+  color: black;
+  padding: 0.3rem;
+}
+.progress-bar {
+  font-family: Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  color: #dcdde1;
+}
+.html > .progress > .progress-bar {
+  background: #ea8685;
+  width: 100%;
+
+  /* animation-duration: 5s;
+  animation-delay: 3s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite; */
+  /* animation: progress 6s linear infinite;
+  animation-direction: alternate; */
+}
+.html > .progress > .progress-bar > span {
+  display: block;
+  text-align: center;
+  width: 75%;
+  background: #e15f41;
+  /* animation: progress 6s linear infinite;
+  animation-direction: alternate; */
+}
+.css > .progress > .progress-bar > span {
+  display: block;
+  text-align: center;
+  width: 60%;
+  background: #574b90;
+}
+.bootstrap > .progress > .progress-bar > span {
+  display: block;
+  text-align: center;
+  width: 55%;
+  background: #2f3542;
+}
+.jquery > .progress > .progress-bar > span {
+  display: block;
+  text-align: center;
+  width: 50%;
+  background: #d63031;
+}
+.react > .progress > .progress-bar > span {
+  display: block;
+  text-align: center;
+  width: 65%;
+  background: #303952;
+}
+.node > .progress > .progress-bar > span {
+  display: block;
+  text-align: center;
+  width: 55%;
+  background: #c0392b;
+}
+/* @keyframes progress {
+  to {
+    width: 85%;
+    background: rgba(236, 107, 174, 1);
+  }
+} */
+.css > .progress > .progress-bar {
+  background: #786fa6;
+  width: 65%;
+}
+.bootstrap > .progress > .progress-bar {
+  background: #57606f;
+  width: 50%;
+}
+.jquery > .progress > .progress-bar {
+  background: #ff7675;
+  width: 60%;
+}
+.react > .progress > .progress-bar {
+  background: #596275;
+  width: 65%;
+}
+.node > .progress > .progress-bar {
+  background: #e74c3c;
+  width: 55%;
+}

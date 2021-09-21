@@ -1,63 +1,100 @@
 .about {
-    margin-top: 20px;
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(to right, #101110, #0e100d, #0c0f0a, #0a0e05, #090d01);
-    
+  width: 100%;
+  height: 100vh;
+  background: rgb(171, 206, 206);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 /* ABOUT CONTENT SECTION CSS*/
 
 .aboutContent {
-    margin-top: 20px;
-    padding: 30px 0;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 20px;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
 }
-
-.aboutimg {
-    flex: 25%;
+@media only screen and (max-width: 768px) {
+  .aboutContent {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .aboutimg {
+    flex: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-right: 10px;
+    margin: 1.5rem 0;
+  }
+  .aboutContent > .aboutdesc > span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: crimson;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+  }
+  .aboutContent > .aboutimg > img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .aboutContent > .aboutdesc > p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    text-align: justify;
+    color: rgb(32, 31, 30);
+  }
+}
+.aboutimg {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 10px;
 }
 
-img {
-    border-radius: 50%;
-    border: 2px solid firebrick;
-    text-align: center;
+.aboutimg > img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  text-align: center;
 }
 
 .aboutdesc {
-    flex: 70%;
-    text-align: center;
+  flex: 75%;
+  text-align: center;
 }
 
-.aboutdesc span {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
-    color: rgb(255, 92, 92);
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    padding: 5px;
-    text-shadow: #474747 3px 5px 2px;
+.aboutdesc > span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(117, 194, 17);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 5px;
 }
 
-.aboutdesc p {
-    margin-top: 10px;
-    font-size: 20px;
-    padding: 20px 20px;
-    text-align: justify;
-    color: rgb(192, 191, 189);
+.aboutdesc > p {
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 20px 20px;
+  text-align: justify;
+  color: rgb(44, 41, 38);
 }
 
-.aboutdesc p span{
-    font-family: 'Lora', serif;
-    font-size: 30px;
-    font-weight: 600;
-    color: mediumspringgreen;
+.aboutdesc > p > span {
+  font-family: "Lora", serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(6, 133, 122);
 }
 /* ABOUT CONTENT SECTION CSS END*/
